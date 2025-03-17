@@ -1,3 +1,4 @@
+import math
 course = "python programming"
 print(len(course))
 print(course[3:])
@@ -36,3 +37,8 @@ print("pro" in course)  # return true false
 print("pro" not in course)  # return true false
 
 print(course.replace('p', 'j'))
+
+# Math modules
+print(round(2.2))
+print(math.ceil(2.2))
+print(abs(-2.2))
