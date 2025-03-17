@@ -9,3 +9,10 @@ print(course[:3])
 # \n => next line
 course = "python \nprogramming"
 print(course)
+
+
+first_name = "Zeeshan"
+last_name = "Riasat"
+full_name = first_name + " " + last_name
+
+print(full_name)
