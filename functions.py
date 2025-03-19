@@ -5,3 +5,20 @@ def greet(first_name, last_name):
 
 greet("Zeeshan", "Riasat")
 greet("Mosh", "Hamdani")
+
+
+# Types of functions
+#   1. perform a task
+#   2. return a value
+
+def performfun(name):
+    print(f"Hi {name}")
+
+
+def returnfun(name):
+    return f"Hi {name}"
+
+
+performfun("Zeeshan")
+message = returnfun("Mosh")
+print(message)
