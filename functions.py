@@ -22,3 +22,12 @@ def returnfun(name):
 performfun("Zeeshan")
 message = returnfun("Mosh")
 print(message)
+
+
+# Keyword arguments
+
+def keywordArguments(number, by):
+    return number + by
+
+
+print(keywordArguments(3, by=2))
