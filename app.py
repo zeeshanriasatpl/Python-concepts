@@ -27,3 +27,29 @@ print("Done")
 age = 22
 message = "eligible" if age >= 18 else "not eligible"
 print(message)
+
+
+# logical operators
+high_income = False
+good_credit = True
+student = True
+# and
+if high_income and good_credit:
+    print("Eligible")
+else:
+    print("Not eligible")
+# or
+if high_income or good_credit:
+    print("Eligible")
+else:
+    print("Not eligible")
+# not
+if not student:
+    print("Eligible")
+else:
+    print("Not eligible")
+# combine
+if high_income or good_credit and not student:
+    print("Eligible")
+else:
+    print("Not eligible")
