@@ -31,3 +31,12 @@ def keywordArguments(number, by):
 
 
 print(keywordArguments(3, by=2))
+
+# Default arguments (optional parameters) note: all the optional paramerters should come after the required parameters
+
+
+def defaultArguments(number, by=1):
+    return number + by
+
+
+print(defaultArguments(3))
